@@ -38,6 +38,7 @@ ingress:
   tls:
     - hosts:
         - vcluster-4q7ld.test.deepseadevops.net
+      secretName: preview-hello-world-app-tls
 resources:
   limits:
     cpu: 200m
